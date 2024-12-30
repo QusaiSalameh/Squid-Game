@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height:100svb;
     background-color: #282c34;
     color: white;
   }
@@ -18,10 +18,29 @@ body {
     border-radius: 10px;
     max-width: 600px;
   }
+  #background-music {
+    text-align: center;
+    position:absolute;
+    top: 1px;
+    right: 5px;
+    padding: 1px 2px;
+    font-size: 5px;
+    background-color: #ff0015;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  #background-music:hover {
+    background-color:white;
+  }
   
   #instructions h1 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 10px;
+    color: darkturquoise;
   }
   
   #instructions ul {

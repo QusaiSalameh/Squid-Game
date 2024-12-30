@@ -35,8 +35,6 @@ document.addEventListener('keydown', (event) => {
     }
   }
 });
-
-// Reset the game
 function resetGame() {
   playerPosition = 0;
   player.style.bottom = `${playerPosition}px`;
